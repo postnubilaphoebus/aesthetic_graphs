@@ -5,9 +5,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 import datetime
 
+#Params
 iter = 20
 n = 200
 precision = 0.002
+
 omega_list = np.arange(0 + precision, 1 + precision, precision)
 K_list = np.arange(0 + precision, 1 + precision, precision)
 resolution = int(1 / precision)
