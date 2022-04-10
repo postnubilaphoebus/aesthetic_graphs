@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 import datetime
 
+# Check coordinate conversion
+# Maybe use binary heatmap instead of gradual seaborn
 # the complex roots will lie in the plane [-2, 2]; [-2j, 2j]
 
 def coeff_list(bin_num):
